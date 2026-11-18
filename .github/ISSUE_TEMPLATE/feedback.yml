@@ -1,0 +1,63 @@
+name: Report an issue or suggest a change
+description: Report an app bug, correct a guide, or request a feature.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues first. You may write in your preferred language.
+        This report is public: remove credentials, account identifiers, personal information, and private conversation content from any screenshots or logs.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Bug report
+        - Guide correction
+        - Feature request
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: For an app bug, include the version shown in Cobell.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Android
+        - iOS
+        - CLI
+        - Website
+  - type: input
+    id: area
+    attributes:
+      label: Affected feature or guide
+      description: Name the feature or link the guide page.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the problem, correction, or task you want to accomplish.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: For an app bug, list the steps that lead to the problem.
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual results
+      description: Explain what you expected and what happened instead.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or logs
+      description: Include only relevant evidence with sensitive information removed.
