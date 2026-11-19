@@ -5,7 +5,7 @@
 | Control | Behavior |
 |---|---|
 | App name | Renames the registration; maximum 80 characters. |
-| Image URL | Sets an HTTPS image URL; clear it to remove the image. |
+| App avatar | Choose a style, optionally add a prompt and up to five reference images, then generate. Review and apply the candidate, generate another, or remove the current avatar. |
 | Allowed paths | One path prefix per line. Use `/` to allow all paths or a specific prefix to restrict access. An empty list also allows all paths. |
 | End-to-end encryption | Changes encryption for app traffic. Changing it disconnects current viewers. |
 | Save / Cancel or Back | Saves settings or leaves the editor. |

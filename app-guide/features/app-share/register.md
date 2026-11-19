@@ -1,5 +1,7 @@
 # Register an App Share app
 
+After registration, choose **Create avatar** or **Skip for now**. If a DingDong registered the app, direct its owner to **Apps → Operate → Settings** in a normal sign-in to create or change its avatar.
+
 ## Desktop web server
 
 1. Start the web app on the desktop that will host it. Note its local address and port.

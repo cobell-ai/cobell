@@ -3,9 +3,11 @@
 ## Settings
 
 1. Open Apps → owned app → Operate → Settings/App settings. Mobile Apps is under More.
-2. Set the name, optional HTTPS image URL and allowed path prefixes, one per line. Use a prefix such as `/reports` to limit accessible paths, or `/` to allow all paths. Leaving the list empty also allows all paths.
+2. Set the name and allowed path prefixes, one per line. Use a prefix such as `/reports` to limit accessible paths, or `/` to allow all paths. Leaving the list empty also allows all paths.
 3. Set End-to-end encryption and save. Changing encryption disconnects current viewers.
 4. To remove the registration instead, choose Delete and confirm. This ends its shares and connections; it does not remove the web app's files from the host.
+
+In **App avatar**, choose a style and optionally supply a prompt and up to five reference images. Review the generated candidate and apply it when ready. The owner can replace or remove the avatar while the app is serving.
 
 ## Hosting
 
