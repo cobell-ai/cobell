@@ -14,6 +14,7 @@ Desktop agent controls differ. See [agent sign-in](https://raw.githubusercontent
 |---|---|
 | Account / connection | Shows the agent account and this device's Offline, Connecting or Online state. It does not open the personal profile. |
 | Logout | Signs out immediately without an extra confirmation. Use child screens' return controls to navigate back to the dashboard. |
+| Hosting on this device | Read-only list of apps hosted here with at least one enabled chat share. Check whether an app is serving, connecting, paused or unavailable. Use normal sign-in for the viewer and app management screens. |
 | Toolbox executions | Scrollable local summary of tool, origin, time, duration and status. These summary rows do not open execution details. |
 | History settings | Opens the agent's history settings. A local history-storage error can offer its own Retry. See [execution history](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/security-diagnostics/execution-history.md). |
 | Camera / Microphone / Photos / Notifications | Each OS permission row shows its current state. Granted rows have a check; an undecided/denied permission offers Allow when requests are supported. Otherwise Settings opens app settings. |
@@ -39,4 +40,4 @@ Device settings use the current agent session. A failed read or save does not pr
 
 [Task steps](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/authentication/agent-device.md) · [Authentication index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/authentication/README.md)
 
-Reviewed: 2026-10-24 (mobile agent dashboard, permission rows and embedded history entry). UI labels use the English app language.
+Reviewed: 2026-11-19. UI labels use the English app language.

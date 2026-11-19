@@ -8,7 +8,7 @@ Find a screen, panel, dialog, sheet, menu or terminal view. Platforms are sectio
 | [Sign-in and account access](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/authentication/README.md) | Social sign-in, registration, verification codes, session conflicts and agent access |
 | [Profile, preferences and billing](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/account/README.md) | Nickname, images, language, theme, AI credentials, subscriptions, logout and deletion |
 | [Friends, rooms and messages](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/README.md) | Friend requests, chat lists, invitations, room settings, messages, threads and attachments |
-| [App Share](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md) | App registration, desktop hosting, chat access, viewers, traffic and Gear permissions |
+| [App Share](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md) | App registration, desktop and mobile hosting, chat access, viewers, traffic and Gear permissions |
 | [DingDongs and responses](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/dingdongs/README.md) | Pure and Cobelly, Gear assignment, Bell requests, questions and behavior settings |
 | [Memory, Toolbox and Gear](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/management/README.md) | Reusable instructions, variables, MCP connections, configuration and built-in Toolboxes |
 | [KnowledgeBox and editors](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/knowledgebox/README.md) | Device folders, imports, links, file editing, recovery and editor preferences |

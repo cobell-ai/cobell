@@ -1,6 +1,6 @@
 # App Share: feature index
 
-App Share provides web apps running on a host desktop to current participants of selected Cobell chats.
+App Share serves a web app to current participants of selected chats. A desktop can host a local web server or a static KnowledgeBox folder. Android and iOS can host a static folder while Cobell is in the foreground, with normal or agent sign-in. Viewers use normal sign-in.
 
 | Task | Guide |
 |---|---|
@@ -12,4 +12,4 @@ App Share provides web apps running on a host desktop to current participants of
 
 [Feature index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/README.md) · [Screen index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md)
 
-Reviewed: 2026-10-23.
+Reviewed: 2026-11-19.

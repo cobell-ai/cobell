@@ -13,8 +13,8 @@
 | Mobile Back | Leaves the viewer page while retaining the connection. Reopen it under Apps → Open connections. |
 | Status overlay | Displays pause, hold, offline, limit or terminal-connection reasons. |
 
-Normal sign-in is required, including for an app owned by the same account or running on the same desktop. Agent sign-in has no local testing exception. The embedded macOS viewer requires macOS 14 or later; use Chrome on older macOS.
+Normal sign-in is required, including for an app owned by the same account or hosted on the same device. Agent sign-in has no local testing exception. The embedded macOS viewer requires macOS 14 or later; use Chrome on older macOS.
 
 [Viewer steps](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/viewer.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md)
 
-Reviewed: 2026-10-23. Labels use the English app language.
+Reviewed: 2026-11-19. Labels use the English app language.

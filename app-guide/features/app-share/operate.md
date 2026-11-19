@@ -14,8 +14,8 @@ The operator's plan limits monthly traffic, concurrent apps, concurrent users pe
 - The owner counts when viewing their own app. The host connection itself is not a viewer.
 - A user limit prevents new users from joining; the monthly traffic limit stops sharing.
 
-The operation screen is available on desktop and mobile with normal sign-in. Agent sign-in can host local apps but cannot use this monitoring/viewer interface. A sharing switch alone does not prove successful operation; inspect runtime state and the room's reason text.
+The operation screen is available on desktop and mobile with normal sign-in. Agent sign-in can host local apps but cannot use this monitoring/viewer interface. On the mobile agent dashboard, Hosting on this device lists apps assigned to this phone with at least one enabled chat share. Check each app’s status. Connecting, a missing start page, paused sharing or relay suspension can all prevent serving.
 
 [Screen controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/operate.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/README.md)
 
-Reviewed: 2026-10-23.
+Reviewed: 2026-11-19.

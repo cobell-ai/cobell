@@ -1,6 +1,6 @@
 # Register an App Share app
 
-## Desktop
+## Desktop web server
 
 1. Start the web app on the desktop that will host it. Note its local address and port.
 2. Open Apps in the top navigation → Register app.
@@ -8,17 +8,15 @@
 4. Copy the Integration configuration file path shown after registration. Configure the local app to read it and implement the App Share status endpoint. An address alone does not complete integration.
 5. In Operate, check the host and app runtime state. Configure [chat sharing](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/operate.md).
 
-## Mobile
+## Static files on desktop, Android or iOS
 
-1. More → Apps → Register app.
-2. Enter the name and register. Successful registration opens Operate.
-3. Connect this registered app on a hosting desktop. Mobile registration has no local-address field or integration-file dialog.
-4. Once a desktop binding exists, choose it with Change host and enable a chat share.
+1. Sign in normally. Open Apps → Register app (More → Apps on mobile) and enter an app name.
+2. Choose **Choose KnowledgeBox folder**, select the folder containing the site, and confirm the start page (default `index.html`). Choose the fallback option if unknown page URLs should open that page.
+3. Register. With a folder, this device becomes the host. You can also register just the name on mobile, then choose a folder under **Operate** and select that device in **Change host**.
+4. Enable sharing for the intended chat in Operate. Keep Cobell in the foreground on mobile. Saved file changes appear on the next load.
 
-If mobile registration cannot be confirmed, use Retry to check the same request before registering another app. On either platform, verify the catalog and operation state after an error.
-
-The host desktop, local web app and a Cobell GUI or CLI hosting session must remain running. Registration and [Gear permission](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/gear.md) are separate.
+If mobile registration cannot be confirmed, use Retry to check the same request before registering another app. To publish from an agent session, follow the [DingDong tool workflow](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/gear.md).
 
 [Screen controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/register.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/README.md)
 
-Reviewed: 2026-10-23.
+Reviewed: 2026-11-19.

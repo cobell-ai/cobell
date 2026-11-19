@@ -16,6 +16,10 @@ Configure this device after agent sign-in, then choose its execution targets fro
 6. Scroll the embedded Toolbox executions summary to inspect local activity. Its rows do not open details. History settings opens the agent's settings; Retry in a storage-error notice retries history access.
 7. Use Logout to request sign-out. This has no extra confirmation; ordinary Back does not leave the dashboard. Resolve any offered sign-out recovery before starting another session.
 
+## Hosting static apps
+
+DingDong can select a KnowledgeBox folder, register it and enable a chat share after the owner grants access in Gear. Check **Hosting on this device** for the current status. Turning off KnowledgeBox file access or leaving the foreground stops file serving. With the saved share still enabled, serving can resume once file access is confirmed and Cobell is in the foreground. See the [App Share tool workflow](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/gear.md).
+
 ## Limits
 
 Local permissions and device switches do not select this device in a DingDong's Gear or make unavailable tools work. Use the normal personal interface to manage Gear targets, device registration and sign-in tokens.
@@ -30,4 +34,4 @@ A failed settings read/save alone does not establish the final server state. Ins
 
 [Device management](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/device-management.md) · [Screen sharing](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/screen-sharing.md) · [Android Booster](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/android-booster.md)
 
-Reviewed: 2026-10-24 (mobile agent dashboard, permission rows and embedded history entry). UI labels use the English app language.
+Reviewed: 2026-11-19. UI labels use the English app language.

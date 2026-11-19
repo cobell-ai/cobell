@@ -15,7 +15,7 @@ Both indexes cover the following areas. Each topic contains desktop and mobile p
 | Sign-in and account access | Social sign-in, registration, verification codes, session conflicts and agent access |
 | Profile, preferences and billing | Nickname, images, language, theme, AI credentials, subscriptions, logout and deletion |
 | Friends, rooms and messages | Friend requests, chat lists, invitations, room settings, messages, threads and attachments |
-| App Share | App registration, desktop hosting, chat access, mobile/desktop viewers, traffic and Gear permissions |
+| App Share | App registration, desktop and mobile hosting, chat access, mobile/desktop viewers, traffic and Gear permissions |
 | DingDongs and responses | Pure and Cobelly, Gear assignment, Bell requests, questions and behavior settings |
 | Memory, Toolbox and Gear | Reusable instructions, variables, MCP connections, configuration and built-in Toolboxes |
 | KnowledgeBox and editors | Device folders, imports, links, file editing, recovery and editor preferences |
