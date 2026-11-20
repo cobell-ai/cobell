@@ -8,6 +8,7 @@ Blocking, reports, local execution history, diagnostics and connection/update sc
 | [Report a message](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/security-diagnostics/report-message.md) | spam, abusive message |
 | [Review shell approvals](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/security-diagnostics/shell-approval.md) | allow once, timed access, deny, revoke, timeout |
 | [Inspect local Toolbox execution history](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/security-diagnostics/execution-history.md) | tool log, security shield |
+| [Hide sensitive information in tool results](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/security-diagnostics/hide-sensitive-information.md) | hide a value, unexpected hidden text, missing tool result |
 | [Set local execution-history retention](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/security-diagnostics/history-settings.md) | retention, delete tool history |
 | [Review and send diagnostics](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/security-diagnostics/diagnostics.md) | bug report, diagnostic ID |
 | [Check connections and unavailable features](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/security-diagnostics/service-status.md) | offline, reconnect |
