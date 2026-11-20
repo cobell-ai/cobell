@@ -26,13 +26,13 @@ Choose a supplied capability and find the Gear settings that actually control it
 
 - **Cobell Controller:** no configurable options or demo. Desktop explains automatic System Gear attachment; mobile shows capability categories without a Gear-usage list.
 - **Notification Sender:** no catalog configuration demo or Gear-usage list on either platform. Its information describes automatic attachment; change delivery settings in actual Gear.
-- **App Share:** desktop shows selection and monitoring guidance without a demo or Gear-usage list. Mobile has Gear-usage links. Select apps in actual Gear; the catalog does not register or start an app.
+- **App Management:** desktop shows selection and monitoring guidance without a demo or Gear-usage list. Mobile has Gear-usage links. Select apps in actual Gear; the catalog does not register or start an app.
 
 Built-in definitions have no private Rename, Duplicate, image or individual Delete menu. Desktop collection checkboxes do not make them removable; see [collection controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/management/collections.md).
 
 ## Conditions and results
 
-The catalog includes KnowledgeBox Use, Internet Use, Sandbox Browser Use, Screen Use, Mouse Use, Keyboard Use, Cobell Controller, Notification Sender and App Share. There is no final Save on a built-in catalog page. Configure and save the actual Gear separately. Usage lists show saved configuration, not running DingDongs or successful tool execution. Catalog support does not prove this device has the necessary runtime.
+The catalog includes KnowledgeBox Use, Internet Use, Sandbox Browser Use, Screen Use, Mouse Use, Keyboard Use, Cobell Controller, Notification Sender and App Management. There is no final Save on a built-in catalog page. Configure and save the actual Gear separately. Usage lists show saved configuration, not running DingDongs or successful tool execution. Catalog support does not prove this device has the necessary runtime.
 
 ## Related guides
 

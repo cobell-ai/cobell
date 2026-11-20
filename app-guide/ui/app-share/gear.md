@@ -1,10 +1,10 @@
-# App Share in Gear: screen reference
+# App Management in Gear
 
-**Desktop:** Management → Gear → create or edit a Gear → App Share built-in Toolbox. **Mobile:** Shortcuts → DingDong → Gear → create or edit → App Share.
+**Desktop:** Management → Gear → create or edit a Gear → App Management built-in Toolbox. **Mobile:** Shortcuts → DingDong → Gear → create or edit → App Management.
 
 | Control | Behavior |
 |---|---|
-| App Share Toolbox selection | Adds the capability to this Gear. |
+| App Management Toolbox selection | Adds the capability to this Gear. |
 | App checkboxes | Select owned registered apps that a DingDong using this Gear may manage. |
 | Refresh apps | Mobile reloads owned app choices; desktop shows a retry refresh control when catalog loading fails. |
 | Mobile selected unavailable app | Retains an existing selection for review; it can be deselected. Its presence does not prove access. |

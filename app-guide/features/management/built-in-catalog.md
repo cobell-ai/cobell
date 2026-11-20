@@ -27,11 +27,11 @@ Choose a supplied capability and find the Gear settings that actually control it
 
 Cobell Controller has no configurable options or demo. It displays capability categories; desktop also explains automatic System Gear attachment. Mobile has no Gear-usage list there.
 
-Notification Sender has no catalog demo or Gear-usage list on either platform. Configure its delivery settings in actual Gear. App Share has selection/monitoring guidance without a desktop demo or usage list; mobile does offer Gear-usage links. Select apps in actual Gear.
+Notification Sender has no catalog demo or Gear-usage list on either platform. Configure its delivery settings in actual Gear. App Management has selection/monitoring guidance without a desktop demo or usage list; mobile does offer Gear-usage links. Select apps in actual Gear.
 
 ## Completion, limits and recovery
 
-The catalog includes KnowledgeBox Use, Internet Use, Sandbox Browser Use, Screen Use, Mouse Use, Keyboard Use, Cobell Controller, Notification Sender and App Share. Built-ins have no private Rename, Duplicate, image or individual Delete menu. A desktop collection checkbox does not make a built-in removable.
+The catalog includes KnowledgeBox Use, Internet Use, Sandbox Browser Use, Screen Use, Mouse Use, Keyboard Use, Cobell Controller, Notification Sender and App Management. Built-ins have no private Rename, Duplicate, image or individual Delete menu. A desktop collection checkbox does not make a built-in removable.
 
 There is no final Save on these catalog pages. Usage lists are saved Gear references, not running DingDongs or verified tool execution. Return from demo to the actual Gear settings to make a change. Back does not undo changes saved on a separately opened setup page. Catalog support does not prove this device has the necessary runtime.
 
