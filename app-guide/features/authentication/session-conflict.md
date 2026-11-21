@@ -23,7 +23,7 @@ Choose how to proceed when Cobell detects another session or too many registered
 
 ## Completion, limits and recovery
 
-Normal personal sign-in allows one desktop and one mobile session. Switching replaces a normal session of the same type. The agent alternative is offered only when eligible slots are available.
+Normal sign-in allows one desktop and one mobile session at the same time. Switching replaces the normal session on the same type of device. When the dialog offers [agent sign-in](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/authentication/agent-login.md), choosing it keeps the existing normal session active. Agent sign-in has no separate concurrent-session limit. Adding a new device requires room under the plan's registered-device limit.
 
 A device-registration replacement can have completed even if the next login stage fails. Do not choose a different device merely because the result is uncertain. Cancel stops the new attempt; it does not undo a committed device replacement.
 

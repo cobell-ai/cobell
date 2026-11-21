@@ -1,6 +1,10 @@
 # Sign in as a device agent
 
-Connect an additional device for permitted tools without opening the normal personal interface.
+Connect an additional device for permitted tools while keeping your normal sign-ins active.
+
+## Concurrent sign-ins and device registration
+
+Agent sign-in has no separate concurrent-session limit. Multiple desktop or mobile devices can stay signed in as agents alongside your normal desktop and mobile sessions. Your plan limits the total number of registered devices across both sign-in modes. If you reach the limit, [unregister a device](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/device-management.md) before adding a new one.
 
 ## Start here
 
@@ -13,7 +17,7 @@ Connect an additional device for permitted tools without opening the normal pers
 1. Open Agent-dedicated Login.
 2. Choose agent Google/Apple login or enter a valid token and choose Login with Token.
 3. Inspect the account and local switches in the [desktop agent screen](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/authentication/desktop-agent-device.md).
-4. Use a personal session for registration, tokens and Gear execution targets.
+4. Use a personal session to manage registered devices, tokens and Gear execution targets.
 
 Desktop agent sign-in does not support Auto Login on Windows, macOS or Linux. Fully quitting and reopening the desktop app requires agent sign-in again, whether using Google, Apple or an agent token. The normal sign-in Auto Login preference does not apply.
 
@@ -22,7 +26,7 @@ Desktop agent sign-in does not support Auto Login on Windows, macOS or Linux. Fu
 1. Tap Sign in as an agent.
 2. Choose an agent social login, or enter the token and tap Sign in with token.
 3. Check the agent screen’s connection state.
-4. Use the [agent dashboard](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/authentication/agent-device.md) for this device's OS permissions, sharing switches and execution summary. Use a personal session for registration, tokens and Gear targets.
+4. Use the [agent dashboard](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/authentication/agent-device.md) for this device's OS permissions, sharing switches and execution summary. Use a personal session to manage registered devices, tokens and Gear targets.
 
 Mobile restores valid agent sessions when the app is reopened. It has no Auto Login switch.
 
@@ -34,7 +38,7 @@ These commands use the supplied token file. The desktop login screen's Auto Logi
 
 ## Completion, limits and recovery
 
-An agent session is not an ordinary chatting/account-management session. Its availability depends on your token and device entitlement. Agent devices do not receive ordinary DingDong OS notifications. Never paste a secret token into a public chat.
+Use normal sign-in for ordinary chats and account management. If you sign in with a token, it must be active and unexpired. Your plan sets separate limits for how many tokens you can activate and retain. Agent devices do not receive ordinary DingDong OS notifications. Never paste a secret token into a public chat.
 
 Also find this under: agent device, CAS token, multi-device, remote tools.
 

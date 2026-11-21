@@ -18,7 +18,7 @@
 
 ## Manage access
 
-Refresh the list and inspect the intended token's state. Revoke stops active or plan-paused access permanently. Reactivate resumes an eligible plan-paused token using an available active slot, with the same secret and expiry. Delete permanently invalidates a token and releases retained capacity. Each action requires confirmation; Cancel abandons it.
+Refresh the list and inspect the intended token's state. Revoke stops active or plan-paused access permanently. When the active-token count is below the limit, Reactivate resumes an eligible plan-paused token with the same secret and expiry. Delete permanently invalidates a token and releases retained capacity. Each action requires confirmation; Cancel abandons it.
 
 ## Leave an unfinished form
 

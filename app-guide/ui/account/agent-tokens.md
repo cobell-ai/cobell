@@ -15,7 +15,7 @@
 | Generate New Token / Create token | Opens creation when retained capacity permits. |
 | Reactivate | Offered for plan-paused tokens. Requires confirmation and available active capacity. Mobile disables it when the active count is full. |
 | Revoke | Offered for active or plan-paused tokens. Requires confirmation; Cancel keeps access unchanged. Revocation cannot be undone by Reactivate. |
-| Delete | Requires confirmation, permanently invalidates the token and releases its retained slot. Cancel keeps it. |
+| Delete | Requires confirmation, permanently invalidates the token and reduces the retained-token count. Cancel keeps it. |
 | Close / Back | Leaves token management. |
 
 ## Creation controls
