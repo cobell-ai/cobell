@@ -2,7 +2,7 @@
 
 ## Settings
 
-1. Open Apps → owned app → Operate → Settings/App settings. Mobile Apps is under More.
+1. Open Apps → owned app → Operate → Settings/App settings. Mobile Apps is under Shortcuts.
 2. Set the name and allowed path prefixes, one per line. Use a prefix such as `/reports` to limit accessible paths, or `/` to allow all paths. Leaving the list empty also allows all paths.
 3. Set End-to-end encryption and save. Changing encryption disconnects current viewers.
 4. To remove the registration instead, choose Delete and confirm. This ends its shares and connections; it does not remove the web app's files from the host.
@@ -20,4 +20,4 @@ Keep Cobell in the foreground to serve files on mobile. Disconnect source remove
 
 [Screen controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/settings-host.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/README.md)
 
-Reviewed: 2026-11-19.
+Reviewed: 2026-11-21.

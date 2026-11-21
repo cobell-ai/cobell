@@ -24,7 +24,7 @@ Allow advanced Browser control on this Android device, pair it, then establish a
 
 ## Conditions and recovery
 
-Basic Android WebView browsing, reading, clicking and typing work without Booster. Pairing and connection are separate; a successful pairing notification does not by itself prove connection. iOS has neither local Browser execution nor Booster pairing.
+Basic Android browsing, reading, clicking and typing work without Booster. Check the connection status after pairing. Booster is for Android. On iOS 18.4 or later, use the [local Browser controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/devices-browsers/browser-runtime.md).
 
 For an expired/failed pairing attempt, open a new Android pairing-code window and prepare again with its current port/code. For discovery/connection failure, check Wi-Fi, Wireless debugging and the current connection port. A notification/key-storage error has its own message; do not delete the key merely to retry a read.
 

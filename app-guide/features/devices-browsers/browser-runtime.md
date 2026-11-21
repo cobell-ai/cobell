@@ -6,7 +6,7 @@ Run a Browser on its owning device and distinguish saved configuration from the 
 
 **Desktop:** Management → Browser → the owning device's Browser row.
 
-**Mobile:** Shortcuts → Browser → a local Android Browser → runtime/download cards.
+**Mobile:** Shortcuts → Browser → a local Browser on Android or iOS 18.4+ → runtime controls.
 
 ## Desktop steps
 
@@ -24,16 +24,22 @@ If Browser shows only an empty Device message and no Add button, open [Managemen
 4. In Downloads, use Save a copy to export a downloaded file, or Delete saved file to remove Cobell's saved copy. Canceling the system picker does not confirm export.
 5. Choose Stop browser before restarting to apply changed background/Booster mode.
 
-## Completion, limits and recovery
+## iOS steps
 
-iOS cannot execute local Browsers. Saved settings, remote runtime reports and a locally running session are distinct. Downloads remain subject to policy; the download card has no Open or transfer-retry button.
+1. Open the local Browser detail, choose **Start browser**, then **Open browser**.
+2. Use the address bar for public HTTPS sites. Use the tab menu to add, switch or close pages. The Browser's domain rules still apply.
+3. Return to Cobell to keep the session running in the foreground, or choose **Stop browser** to end it. Switching apps or locking the device ends the session and keeps the saved Browser profile.
 
-If the running-browser limit is reached, stop another local Browser or change the 1–4 limit in Booster settings. Lowering that limit keeps existing sessions open but prevents additional starts.
+## Recovery
+
+If the running-browser limit is reached, stop another local Browser or adjust the limit in the Browser list menu.
 
 Losing Wi-Fi/Booster or turning its permission off stops advanced sessions. If cleanup cannot be confirmed, restart Cobell before starting that Browser again. Pending policy/deletion verification can block actions; use the offered service Retry/reload and inspect the current state before repeating work.
+
+If iOS offers **Retry profile reset**, complete the reset before starting the Browser. This clears that Browser's cookies and site data.
 
 ## Related guides
 
 [Screen controls and locations](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/devices-browsers/browser-runtime.md) · [Android Booster](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/android-booster.md) · [Browser policy](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-policy.md) · [Browser configuration](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-create.md)
 
-Reviewed: 2026-10-24. UI labels use the English app language.
+Reviewed: 2026-11-21. UI labels use the English app language.

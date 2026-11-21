@@ -1,6 +1,6 @@
 # App operation and access: screen reference
 
-**Desktop:** Apps → owned app → Operate. **Mobile:** More → Apps → owned app → Operate. Both require normal sign-in as the app owner.
+**Desktop:** Apps → owned app → Operate. **Mobile:** Shortcuts → Apps → owned app → Operate. Both require normal sign-in as the app owner.
 
 | Control or area | Behavior |
 |---|---|
@@ -19,4 +19,4 @@ An enabled share may still be unavailable because the host/app is offline, verif
 
 [Operation steps and counting rules](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/operate.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md)
 
-Reviewed: 2026-10-23. Labels use the English app language.
+Reviewed: 2026-11-21. Labels use the English app language.

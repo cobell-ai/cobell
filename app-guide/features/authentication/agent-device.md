@@ -18,7 +18,7 @@ Configure this device after agent sign-in, then choose its execution targets fro
 
 ## Hosting static apps
 
-DingDong can select a KnowledgeBox folder, register it and enable a chat share after the owner grants access in Gear. Check **Hosting on this device** for the current status. Turning off KnowledgeBox file access or leaving the foreground stops file serving. With the saved share still enabled, serving can resume once file access is confirmed and Cobell is in the foreground. See the [App Management tool workflow](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/gear.md).
+DingDong can register a KnowledgeBox folder as a static app. The owner selects the registered app in Gear before DingDong can enable its chat share. Check **Hosting on this device** for the current status. Turning off KnowledgeBox file access or leaving the foreground stops hosting. An enabled share can resume when Cobell is in the foreground and has access to the files. See the [App Management tool workflow](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/gear.md).
 
 ## Limits
 

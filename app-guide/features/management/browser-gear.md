@@ -38,7 +38,7 @@ Bell access does not transfer the device, browser profile or website credentials
 
 ## Completion, limits and recovery
 
-A Gear cannot grant access broader than Browser-global settings. Both policies must allow an operation. Browsers retain their own isolated cookies/login state; being approved does not mean the website is signed in. Android runs mobile browsers; iOS can configure eligible remote Browsers but cannot execute a local Browser.
+Both the Browser policy and the Gear policy must allow the site and action. Sign in to websites inside the approved Browser. A local Browser can run on Android or on iOS 18.4 or later. Keep Cobell in the foreground on iOS and use public HTTPS sites.
 
 Creating a Browser persists it separately. Discarding the Gear draft does not delete that Browser. Removing its Gear selection removes approval only. Desktop Save starts the update and closes the built-in configuration dialog before the server result. Reopen the saved Gear after it settles; an optimistic display can return to the prior state on failure. Cancel or Close before Save discards the draft. Mobile Save waits for the saved-value check; a failed initial read offers Retry. After an uncertain mobile save, use Check saved settings, which reads without repeating the write and can retain differing edits. Review those before saving again or discarding the draft.
 
@@ -50,4 +50,4 @@ Also find this under: Sandbox Browser Use, approved browser, per-Gear policy.
 
 [Create and edit an isolated Browser](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-create.md) · [Set Browser site access and permissions](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-policy.md)
 
-Reviewed: 2026-10-24 (office sandbox browser and shared-chat delegation example). UI labels use the English app language.
+Reviewed: 2026-11-21. UI labels use the English app language.

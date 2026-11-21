@@ -25,7 +25,7 @@ Choose isolated browsers a DingDong may control and optionally narrow their glob
 
 ## Conditions and results
 
-A Gear cannot grant access broader than Browser-global settings. Both policies must allow an operation. Browsers retain their own isolated cookies/login state; being approved does not mean the website is signed in. Android runs mobile browsers; iOS can configure eligible remote Browsers but cannot execute a local Browser.
+Both the Browser policy and the Gear policy must allow the site and action. Browser profiles store their own website logins. Android and iOS 18.4 or later can run local Browsers. On iOS, keep Cobell in the foreground and use public HTTPS sites.
 
 Creating a Browser persists that Browser separately from the Gear draft. Leaving the Gear without saving does not delete the newly created Browser. Approval does not start a runtime or grant a device permission. Use Refresh browsers after an unavailable/stale mobile list and review the selected Browsers before saving.
 
@@ -39,4 +39,4 @@ Desktop Save starts the update and closes the built-in configuration dialog befo
 
 [Create and edit an isolated Browser](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-create.md) · [Set Browser site access and permissions](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-policy.md)
 
-Reviewed: 2026-10-23. UI labels use the English app language.
+Reviewed: 2026-11-21. UI labels use the English app language.

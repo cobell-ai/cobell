@@ -23,10 +23,12 @@ Blocked rules win. A Gear override cannot widen the Browser-global policy. Enabl
 
 On a local Android Browser, options marked Requires Cobell Mobile Booster connection are disabled while advanced control is unavailable. Basic browsing, reading, clicking and typing work without pairing. A connected Booster must be available when the Browser starts; restart an existing basic session to use it.
 
+On iOS 18.4 or later, set domain rules for public HTTPS sites. File transfer and other advanced controls are unavailable.
+
 If a settings change is awaiting confirmation, runtime permissions can remain stricter than the saved settings. Use the offered reload/service Retry and recheck before assuming a relaxed permission is active.
 
 ## Related guides
 
 [Screen controls and locations](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/devices-browsers/browser-policy.md) · [Create/edit a Browser](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-create.md) · [Approve Browsers in Gear](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/browser-gear.md) · [Android Booster](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/android-booster.md)
 
-Reviewed: 2026-10-23. UI labels use the English app language.
+Reviewed: 2026-11-21. UI labels use the English app language.

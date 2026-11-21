@@ -1,6 +1,6 @@
 # Share an app and manage access
 
-1. Sign in normally as the app owner. Desktop: Apps → Operate. Mobile: More → Apps → Operate.
+1. Sign in normally as the app owner. Desktop: Apps → Operate. Mobile: Shortcuts → Apps → Operate.
 2. Check the host and runtime summary. Finish [host integration](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/register.md) if the app is offline or unverified.
 3. Under Rooms, choose Add or Share with a chat and select an eligible chat.
 4. Enable its sharing switch. Confirm the share's current availability.
@@ -18,4 +18,4 @@ The operation screen is available on desktop and mobile with normal sign-in. Age
 
 [Screen controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/operate.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/README.md)
 
-Reviewed: 2026-11-19.
+Reviewed: 2026-11-21.

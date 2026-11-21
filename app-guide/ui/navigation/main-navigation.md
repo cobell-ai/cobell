@@ -22,7 +22,8 @@ Find the main destinations and recognize the different desktop and mobile layout
 | Switch / reselect mobile tab | Switching tabs restores that tab's last navigation location when available. Selecting the current tab opens its starting location. This is navigation behavior, not an editor-save confirmation. |
 | More tab badge | The same pending-shell-approval count or unavailable exclamation mark used by the Security row. |
 | Status above mobile tabs | Opens Service status when the warning is current and interaction is allowed. It does not itself retry a connection. |
-| Mobile More profile card | Opens Profile; the rows below include Apps, service status, Booster when supported, Screen sharing, Security and App information. |
+| Mobile Shortcuts → Apps / Browser | Opens the app catalog or Sandbox Browser management. |
+| Mobile More profile card | Opens Profile. Below it are Service status, Booster on supported Android devices, Screen sharing, Security and App information. |
 
 ## Conditions and results
 
@@ -36,14 +37,11 @@ Open the fifth bottom tab, the three-line More icon. Scroll vertically to reach 
 |---|---|
 | Profile card | Name/avatar/email card opens Profile. |
 | OS notifications | Switch and permission/recovery controls for this device. See [OS notifications](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/routines-notifications/os-notifications.md). Hidden for agent login and preview. |
-| Apps | Opens registered and accessible [shared apps](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/register.md). |
 | Service status | Opens [service connectivity/status](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/security-diagnostics/service-status.md). |
 | Cobell Mobile Booster | Android only; opens [pairing and connection setup](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/devices-browsers/android-booster.md). |
 | Screen sharing | Opens [mobile screen sharing](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/devices-browsers/screen-sharing.md). |
 | Security | Opens [shell approvals](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/security-diagnostics/shell-approval.md) and [local execution history](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/security-diagnostics/execution-history.md). A number on the shield counts pending approvals; an exclamation mark means approval state is unavailable. Active timed access alone does not add to that count. |
 | App information | Opens the app/version screen; see [updates](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/security-diagnostics/updates.md). |
-
-Market and Delivery rows are disabled by the current build's product configuration. The More entry points do not themselves start screen sharing, approve a shell request or pair Booster; review those destination controls.
 
 ## Related guides
 
@@ -51,4 +49,4 @@ Market and Delivery rows are disabled by the current build's product configurati
 
 [Apps and registration](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/register.md)
 
-Reviewed: 2026-10-24 (desktop navigation/status entry; mobile shell navigation, More entries and badge delegates). UI labels use the English app language.
+Reviewed: 2026-11-21. UI labels use the English app language.

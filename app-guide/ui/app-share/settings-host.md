@@ -1,6 +1,6 @@
 # App settings and hosting: screen reference
 
-**Desktop:** Apps → owned app → Operate → Settings, This device's binding or Change host. **Mobile:** More → Apps → owned app → Operate → App settings, Choose KnowledgeBox folder or Change host.
+**Desktop:** Apps → owned app → Operate → Settings, This device's binding or Change host. **Mobile:** Shortcuts → Apps → owned app → Operate → App settings, Choose KnowledgeBox folder or Change host.
 
 | Control | Behavior |
 |---|---|
@@ -20,4 +20,4 @@ Mobile serves its selected folder while Cobell is in the foreground. Changing ho
 
 [Settings steps](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/settings-host.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md)
 
-Reviewed: 2026-11-19. Labels use the English app language.
+Reviewed: 2026-11-21. Labels use the English app language.
