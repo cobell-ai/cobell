@@ -9,6 +9,7 @@ App Share serves a web app to current participants of selected chats. A desktop 
 | Open, retain or close a shared app | [Viewers](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/viewer.md) |
 | Change settings, host or integration | [Settings and hosting](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/settings-host.md) |
 | Allow a DingDong to manage selected apps | [Gear permission](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/gear.md) |
+| Use the current viewer and chat in a static app | [JavaScript viewer context](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/viewer-context.md) |
 
 [Feature index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/README.md) · [Screen index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md)
 
