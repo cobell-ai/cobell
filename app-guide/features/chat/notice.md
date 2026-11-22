@@ -2,6 +2,10 @@
 
 Publish a room notice separately from ordinary chat messages.
 
+In a personal DingDong chat or an owner-only DingDong group, a request sent from the app carries the AI-visible notice the app could confirm at send time. That observation stays with the run, including after it resumes. If the notice was unconfirmed, leave its initial state unknown.
+
+In any room that supports notices, a DingDong can check the current notice during a run. Check again when the task depends on an edit made after the run started. A hidden or deleted notice returns no content. If the check fails, report that the current notice could not be confirmed.
+
 ## Start here
 
 **Desktop:** Chat panel → right-click the room row → Chat Room Settings → Notice → Write Notice or Edit; the pinned notice bar also has Edit notice.
@@ -33,4 +37,4 @@ Also find this under: pinned notice, announcement in room, AI hidden notice.
 
 [Screen controls and locations](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/notice.md) · [Feature index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/chat/README.md)
 
-Reviewed: 2026-10-03. UI labels use the English app language.
+Reviewed: 2026-11-23. UI labels use the English app language.

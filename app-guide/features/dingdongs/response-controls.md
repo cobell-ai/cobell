@@ -2,6 +2,8 @@
 
 Control the selected DingDong’s work in the current room or thread.
 
+The chat history for a response ends when that run starts. Searching or loading older messages stays within that history. To give the active run new instructions, use Interrupt and then Resume. To include a later chat message, request another response. During a run, the DingDong can also check the current [room notice](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/chat/notice.md).
+
 ## Start here
 
 **Desktop:** Use the orange circular Bell on a single-DingDong room/thread header, its participant row or beside its message. Expand the participant list to choose a DingDong in a shared room.
@@ -56,4 +58,4 @@ Also find this under: Bell button, ask AI, interrupt, pause, resume, stop, queue
 
 [Equip a DingDong with Gear](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/equip-gear.md) · [Answer questions from a DingDong](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/answer-questions.md)
 
-Reviewed: 2026-10-24. UI labels use the English app language.
+Reviewed: 2026-11-23. UI labels use the English app language.
