@@ -2,7 +2,7 @@
 
 **Desktop:** Management → Gear → create or edit a Gear → App Management built-in Toolbox. **Mobile:** Shortcuts → DingDong → Gear → create or edit → App Management.
 
-The App Management Toolbox has an orange arrow. The Apps menu uses a four-square grid.
+The App Management Toolbox has an arrow icon. The arrow is orange in the Toolbox catalog and detail header. The Apps menu uses a four-square grid.
 
 | Control | Behavior |
 |---|---|
