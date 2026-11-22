@@ -6,7 +6,7 @@
 |---|---|
 | Chat Apps overlay → Refresh / Close | Reloads the room's shared-app list or returns to chat. Closing this list does not close a viewer. |
 | Room choice | Selects the chat share used to open the app. |
-| Open on this device | Opens an owned app whose static folder is linked to this device. Desktop shows this in the selected app's menu or Operate. On mobile, open the app details. |
+| Run | Opens an owned app whose static folder is linked to this device. Desktop shows this in the selected app's menu or Operate. On mobile, open the app details. |
 | Reset app data | Clears this app's saved data on this device and keeps its source files. |
 | Desktop Minimize | Retains the viewer as a floating chip. Click the chip to restore; drag it to move. |
 | Desktop Show icon only / Color | Collapses the floating chip; hover the icon for its color menu. |
@@ -19,4 +19,4 @@ Normal sign-in is required for shared and local viewing. The iOS viewer requires
 
 [Viewer steps](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/viewer.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md)
 
-Reviewed: 2026-11-21. Labels use the English app language.
+Reviewed: 2026-11-23. Labels use the English app language.

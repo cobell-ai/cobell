@@ -12,13 +12,13 @@ Opening the app from a chat returns `application/json` with the viewer’s Cobel
 {"user_id":"42","room":{"room_type":"ROOM_TYPE_FRIENDS","room_id":"71"},"local":false}
 ```
 
-Opening the same folder with **Open on this device** returns the owner's user ID and a null room.
+Opening the same folder with **Run** returns the owner's user ID and a null room.
 
 ```json
 {"user_id":"42","room":null,"local":true}
 ```
 
-An owner who opens a **chat share** gets that chat and `local: false` just like any other participant. Treat all IDs as strings. Identify a chat by both `room_type` and `room_id`. The same room ID can occur in different room types.
+Opening a **chat share** returns that chat and `local: false`, including when the owner opens it on the host device. Treat all IDs as strings. Identify a chat by both `room_type` and `room_id`. The same room ID can occur in different room types.
 
 ## JavaScript example
 
@@ -50,7 +50,7 @@ Fetch the context when opening or resuming a viewer-dependent activity. If the r
 ## Verify during development
 
 1. Use a direct file preview to check layout and ordinary controls. Viewer context is available when Cobell serves the folder through App Share.
-2. Sign in normally and choose **Open on this device**. Check the local branch with `room === null`.
+2. Sign in normally and choose **Run**. Check the local branch with `room === null`.
 3. Open the app through an enabled chat share. Check the same account from a second shared chat and a second participant from the first chat. Only the chat should change in the first case and only the user in the second.
 
 This built-in endpoint belongs to static folder hosting. A desktop HTTP server that you register as an app implements its own browser-facing routes.

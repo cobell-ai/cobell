@@ -11,7 +11,7 @@
 | Create avatar / Skip for now | Registration has already completed. The owner can generate and review an avatar now or return through Operate → Settings. |
 | Desktop Integration configuration file | Shows the generated file path after registration; the copy icon copies the path. The local app must read the configuration and implement the App Share status endpoint. |
 | App card / Open app | Select an app to see its details, then open an available share. If prompted, choose a chat. |
-| Open on this device | Opens an owned app from a static folder linked to the current device. |
+| Run | Opens an owned app from a static folder linked to the current device. |
 | Operate | Opens an owned app's operation screen. |
 | Mobile Open connections | Reopens retained viewer connections. |
 

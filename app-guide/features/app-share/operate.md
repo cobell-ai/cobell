@@ -11,11 +11,12 @@ The operator's plan limits monthly traffic, concurrent apps, concurrent users pe
 
 - One account using the same app on multiple devices or through multiple chats counts once for that app.
 - The total adds each app's account count: one account using three apps counts as three.
-- The owner counts when viewing their own app. The host connection itself is not a viewer.
+- The owner counts as a viewer when opening their own chat share. Hosting alone does not count as viewing.
+- Opening your own chat share on its host device uses no monthly App Share traffic. Chat access rules still apply. This covers static folder hosting and desktop HTTP(S) service hosting.
 - A user limit prevents new users from joining; the monthly traffic limit stops sharing.
 
 The operation screen is available on desktop and mobile with normal sign-in. Agent sign-in can host local apps but cannot use this monitoring/viewer interface. On the mobile agent dashboard, Hosting on this device lists apps assigned to this phone with at least one enabled chat share. Check each app’s status. Connecting, a missing start page, paused sharing or relay suspension can all prevent serving.
 
 [Screen controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/operate.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/README.md)
 
-Reviewed: 2026-11-21.
+Reviewed: 2026-11-23.
