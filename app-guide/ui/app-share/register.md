@@ -15,7 +15,7 @@
 | Operate | Opens an owned app's operation screen. |
 | Mobile Open connections | Reopens retained viewer connections. |
 
-Registering with a folder selects this device as host. Mobile name-only registration leaves host selection for Operate. Enable the intended chat share there. To let a DingDong manage the app, select it in the Gear separately.
+Registering with a folder selects this device as host. Mobile name-only registration leaves host selection for Operate. Enable the intended chat share there. For an app you registered manually, select it in Gear to let a DingDong manage it.
 
 Normal sign-in opens Apps and the viewer. On a mobile agent session, Hosting on this device shows the local hosting status for apps with sharing enabled.
 

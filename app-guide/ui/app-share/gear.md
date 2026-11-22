@@ -10,7 +10,7 @@
 | Mobile selected unavailable app | Retains an existing selection for review; it can be deselected. Its presence does not prove access. |
 | Gear Save | Persists the selection. Assign the Gear to the DingDong that should use it. |
 
-Registration does not automatically add an app to Gear. Saving Gear does not start the host or prove the app is available. Review participant activity in the normal sign-in Operate screen.
+App Management defaults on in new Gear. The automatic selection switch defaults on and adds apps registered by a DingDong using this Gear. Owners can turn it off or edit the selected apps. Saving Gear does not start the host or prove the app is available. Review participant activity in the normal sign-in Operate screen.
 
 [Permission steps](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/gear.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md)
 

@@ -11,7 +11,7 @@
 1. In Gear, enable App Management and permit the target phone for KnowledgeBox Use. On the phone, enable **Allow Toolbox on This Device** and **Allow Access to KnowledgeBox Files on This Device**. Keep Cobell in the foreground for hosting.
 2. Use `manage_files` to check the selected device's folder, HTML start page and assets.
 3. Use `manage_app` to register the static folder on the selected device. Registration links the folder and selects that device as host.
-4. Ask the owner to select the new app in this Gear and save. In the intended chat, use `manage_app` to inspect the App and enable sharing for that chat.
+4. Check the registration result. This Gear normally selects apps it registers. If automatic selection is off, ask the owner to select the new app and save. In the intended chat, use `manage_app` to inspect the App and enable sharing for that chat.
 5. To replace the source of an allowed app, use `manage_app` to set the new source folder. The owner can select a linked device under **Change host**.
 
 If the registration outcome is unclear, check the catalog and app status before trying again. Use normal sign-in to verify the page in the viewer.
