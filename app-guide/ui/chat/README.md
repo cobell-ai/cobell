@@ -17,7 +17,7 @@ Friend requests, chat lists, invitations, room settings, messages, threads and a
 | [Open room settings and participant profiles](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/room-settings.md) | room settings, participants |
 | [Invite people and approve entry votes](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/invite-people.md) | invite friend, guest |
 | [Rename a chat room](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/room-name.md) | rename chat, room title |
-| [Write a room notice and control AI visibility](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/notice.md) | pinned notice, announcement in room |
+| [Write a room notice](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/notice.md) | pinned notice, announcement in room |
 | [Manage representatives, managers and kicked users](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/roles.md) | host, representative |
 | [Hide, leave, close or clear a chat](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/room-lifecycle.md) | delete chat, clear history |
 | [Restore a hidden chat](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/chat/hidden-rooms.md) | unhide chat, missing room |

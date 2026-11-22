@@ -1,10 +1,10 @@
-# Write a room notice and control AI visibility
+# Write a room notice
 
 Publish a room notice separately from ordinary chat messages.
 
-In a personal DingDong chat or an owner-only DingDong group, a request sent from the app carries the AI-visible notice the app could confirm at send time. That observation stays with the run, including after it resumes. If the notice was unconfirmed, leave its initial state unknown.
+In a personal DingDong chat or an owner-only DingDong group, a request sent from the app carries the notice the app could confirm at send time. That observation stays with the run, including after it resumes. If the notice was unconfirmed, leave its initial state unknown.
 
-In any room that supports notices, a DingDong can check the current notice during a run. Check again when the task depends on an edit made after the run started. A hidden or deleted notice returns no content. If the check fails, report that the current notice could not be confirmed.
+In any room that supports notices, a DingDong can check the current notice during a run. Check again when the task depends on an edit made after the run started. A deleted notice returns no content. If the check fails, report that the current notice could not be confirmed.
 
 ## Start here
 
@@ -17,21 +17,20 @@ In any room that supports notices, a DingDong can check the current notice durin
 1. Open Chat Room Settings → Notice.
 2. Choose Write Notice or Edit.
 3. Enter Title and Content and Save.
-4. Use Hide from DingDong AI if the notice should be excluded from AI context.
-5. Use the notice-bar expand or More controls to read its full content.
+4. Use the notice-bar expand or More controls to read its full content.
 
 ## Mobile steps
 
 1. Open room settings → Notice.
 2. Enter Title and Content.
-3. Set Hide from DingDong AI as needed and Save.
+3. Save the notice.
 4. Use Delete notice only when you want to remove it.
 
 ## Completion, limits and recovery
 
-AI visibility and user visibility are different: hiding from DingDong AI does not remove the notice from participants’ screens. Editing and deletion depend on room permissions.
+Room participants and their DingDongs can read the published notice. Editing and deletion depend on room permissions.
 
-Also find this under: pinned notice, announcement in room, AI hidden notice.
+Also find this under: pinned notice, announcement in room.
 
 ## Related guides
 
