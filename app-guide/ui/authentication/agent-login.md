@@ -33,7 +33,7 @@ Desktop agent sign-in does not support Auto Login on Windows, macOS or Linux. Af
 
 Mobile restores valid agent sessions when reopened and has no Auto Login switch. Explicit Logout ends the session.
 
-Agent sign-in has no separate concurrent-session limit. The plan's registered-device limit applies across normal and agent sign-ins. Token sign-in requires an active, unexpired token.
+Agent sign-in has no separate concurrent-session limit. The plan's registered-device limit applies across normal and agent sign-ins. A single active, unexpired agent sign-in token can keep multiple devices signed in concurrently.
 
 Use normal sign-in for ordinary chats and account management. Agent devices do not receive ordinary DingDong OS notifications. Never paste a secret token into a public chat.
 

@@ -4,7 +4,7 @@ Connect an additional device for permitted tools while keeping your normal sign-
 
 ## Concurrent sign-ins and device registration
 
-Agent sign-in has no separate concurrent-session limit. Multiple desktop or mobile devices can stay signed in as agents alongside your normal desktop and mobile sessions. Your plan limits the total number of registered devices across both sign-in modes. If you reach the limit, [unregister a device](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/device-management.md) before adding a new one.
+Agent sign-in has no separate concurrent-session limit. A single active, unexpired agent sign-in token (CAS token) can keep multiple devices signed in concurrently within the plan's registered-device limit. That limit counts devices across normal and agent sign-ins, which can stay active at the same time. If you reach the limit, [unregister a device](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/device-management.md) before adding a new one.
 
 ## Start here
 
