@@ -2,6 +2,8 @@
 
 **Desktop:** Management → Gear → create or edit a Gear → App Management built-in Toolbox. **Mobile:** Shortcuts → DingDong → Gear → create or edit → App Management.
 
+The App Management Toolbox has an orange arrow. The Apps menu uses a four-square grid.
+
 | Control | Behavior |
 |---|---|
 | App Management Toolbox selection | Adds the capability to this Gear. |
@@ -14,4 +16,4 @@ App Management defaults on in new Gear. The automatic selection switch defaults 
 
 [Permission steps](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/gear.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md)
 
-Reviewed: 2026-10-23. Labels use the English app language.
+Reviewed: 2026-11-23. Labels use the English app language.

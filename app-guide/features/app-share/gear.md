@@ -2,7 +2,7 @@
 
 1. [Register the app](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/register.md) under the same account.
 2. Open the Gear editor: desktop Management → Gear, or mobile Shortcuts → DingDong → Gear.
-3. Add the App Management built-in Toolbox. Refresh apps and select the registered apps it may manage.
+3. Enable the App Management built-in Toolbox and select the registered apps it may manage.
 4. Save the Gear and assign it to the intended DingDong.
 5. Ask the DingDong to manage sharing for the selected app. Confirm availability and access in [Operate](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/operate.md).
 
@@ -18,4 +18,4 @@ If the registration outcome is unclear, check the catalog and app status before 
 
 [Screen controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/gear.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/README.md)
 
-Reviewed: 2026-11-21.
+Reviewed: 2026-11-23.
