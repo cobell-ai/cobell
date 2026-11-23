@@ -13,8 +13,8 @@ Platform Plan, AI Tier and External AI Slots are independent subscriptions with 
 | Control or state | Behavior |
 |---|---|
 | Refresh | Reloads store availability and the account's product catalog. The page also refreshes when the app resumes. |
-| Plan / AI Tier | Filters the store configurations offered for the account. This is a product selection, not the desktop's arbitrary quota editor. |
-| Product slot summary | Shows the selected product's included paid external-slot count and token capacity; some products include no paid slots. |
+| Platform Plan / AI Tier / Bring Your Own AI | Opens the store offers for the selected product. |
+| Product slot summary | Shows the number of paid external AI slots and the usage multiplier for each slot. |
 | Price / Subscribe | Opens Cobell's confirmation for an available product with a known store price. |
 | Confirmation Subscribe / Cancel | Reviews plan, tier, slots and monthly price; Subscribe continues to the native store purchase flow, Cancel returns without launching it. |
 | Terms / Privacy | Opens the legal reader when products are offered. |
@@ -25,6 +25,10 @@ Platform Plan, AI Tier and External AI Slots are independent subscriptions with 
 | Back | Leaves the subscription page. |
 
 ## Conditions and recovery
+
+External AI slots in Cobell have a monthly usage limit and no 5-hour or 7-day usage limits.
+
+An account can use up to 5 slots, each with a different credential. Google Play applies slot configuration changes at the next renewal. On the App Store, turn off auto-renewal and choose a new configuration after the current paid period ends.
 
 Android and iOS use their respective stores. Controls depend on the configured catalog, platform, signed-in account and current subscription. When the store is not ready, the panel can show “Mobile purchases are not available yet”; refresh after store availability changes.
 

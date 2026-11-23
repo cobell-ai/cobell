@@ -17,7 +17,7 @@ Platform Plan, AI Tier and External AI Slots are independent subscriptions with 
 | Refresh / Retry | Reloads the corresponding summary after a failed or stale read. Mobile also supports pull to refresh. |
 | Desktop payment-method country | Chooses an offered billing country when a payment route is needed; a picker Cancel leaves the choice unchanged. |
 | Desktop Plan / AI Tier cards | Changes the selection and calculates a new quote. |
-| Desktop slot count / quota controls | Edits paid slots and per-slot token units; see the capacity guide. |
+| Desktop slot count / quota controls | Edits the number of paid slots and the usage units per slot. See the capacity guide. |
 | Next / Previous | Moves between selection and Review Change. Invalid input, missing/failed quotes and unresolved paid checkout can disable Next/confirmation. |
 | Review Change | Shows itemized current/new charges, any proration, next recurring charge and effective date. Capacity reductions show affected slots. |
 | Proceed to payment / Confirm / Cancel subscription | Submits the current quote. Cancellation of the selected product has another confirmation. |
@@ -39,7 +39,7 @@ For an active paid subscription, cancelling renewal preserves benefits through t
 | Item | Effect at expiry | Recovery |
 |---|---|---|
 | Device registrations above the Free limit | Excess registrations are removed and their normal/agent sessions end. Registrations within the limit remain. | Sign in again within the available limit. A new subscription does not restore removed registrations or sessions. |
-| External AI slots whose entitlement ends | Credentials and bound settings are deleted from Cobell, rather than kept disabled. Separately granted slots remain while their own entitlement is valid. | Register credentials and configure the slots again after obtaining capacity. Payment does not restore deleted records. |
+| External AI slots that lose access | Cobell deletes the stored credentials and settings. Paid slots count toward the 5-slot limit first. | Register credentials and configure the slots again after obtaining capacity. |
 | Agent sign-in tokens above the active limit | Tokens become plan-paused and their associated agent sessions end. | Use Reactivate for an eligible token when capacity is available. A plan increase alone does not reactivate it. |
 
 Explain removal and recovery requirements before expiry. See [device management](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/devices-browsers/device-management.md), [slot capacity](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/account/credential-capacity.md) and [agent tokens](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/account/agent-tokens.md).

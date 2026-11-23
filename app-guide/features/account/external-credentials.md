@@ -6,6 +6,8 @@
 
 **Mobile:** Home profile header or More profile card → Profile → External AI Credentials.
 
+Use a different OpenAI API key or ChatGPT account in each slot. Cobell rejects credentials already registered in another slot on your account.
+
 ## Register or replace an API key
 
 1. Open credential management and confirm that the account has slot capacity. Retry a failed read first.

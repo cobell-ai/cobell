@@ -23,10 +23,12 @@
 
 ## Slot controls
 
+External AI slots in Cobell have a monthly usage limit and no 5-hour or 7-day usage limits. Your AI provider may apply its own usage limits.
+
 | Control or area | Behavior |
 |---|---|
 | Slot header/status/device/expiry | Shows the stored credential's type, status, registration device and validity where available. |
-| 5-hour / weekly session meters | Shows the percentage remaining and reset time. These are different from the Cobell AI-tier meters, which show percentage used. |
+| Monthly usage meter | Shows the percentage of the slot’s allowance remaining and when it resets. |
 | Use this slot / enabled switch | Enables or disables a nonempty slot. A source-logged-out slot cannot be enabled with this switch. |
 | Desktop API key / mobile Register or Replace with API key | Opens a masked key input. Registration can replace an occupied slot. |
 | API-key Register / Save / keyboard submit | Sends a nonempty key to the selected slot. Successful registration clears the input and closes it. |

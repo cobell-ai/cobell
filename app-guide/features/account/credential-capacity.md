@@ -9,21 +9,23 @@
 ## Inspect or change capacity
 
 1. Read paid, grant and total counts in Profile or the entitlement screen.
-2. Check each entitlement's quota and the grant records' start/expiry dates. Load more or retry failed reads as needed.
-3. On desktop, open Change Subscription to adjust paid-slot count and per-slot units. Use Apply to all only to copy a draft amount.
+2. Check purchased capacity and the grant records' start and expiry dates. Load more or retry failed reads as needed.
+3. On desktop, open Change Subscription to adjust the number of paid slots and the usage multiplier per slot. Use Apply to all to copy a multiplier to all paid slots.
 4. Continue to Review Change and inspect its price, affected slots and effective date before submitting.
 5. On mobile, use Subscription & Payment for the configurations offered by the store. The entitlement view is informational.
 6. Return to Manage credentials to confirm the slots available after the change.
 
 ## Conditions and recovery
 
-Invalid numeric input blocks progression until corrected. Paid units increase both short-window and weekly limits; the subscription price is charged monthly. Read the unit size and maximum shown by the current catalog. Inspect the slot session meters for remaining allowance and reset times.
+External AI slots in Cobell have a monthly usage limit and no 5-hour or 7-day usage limits. Each slot’s usage meter shows the percentage remaining and when it resets.
 
-Lowering a token limit with capacity unchanged preserves daily/weekly usage and credentials; usage can already exceed the new limit. Grant history is separate from purchased capacity and can include future or expired grants. Mobile purchase/restoration is supported when the store catalog permits it.
+Use up to 5 slots per account, with a different OpenAI API key or ChatGPT account in each slot. Desktop offers up to 100× the monthly usage limit per slot.
+
+Changes to paid slot count or usage multipliers take effect at the next paid billing period. For example, one X3 slot can become three X1 slots at the next payment. For App Store subscriptions, turn off auto-renewal and buy the new configuration after the current period ends.
 
 ## Capacity removal and expiry
 
-Removing paid capacity or ending a subscription or slot grant deletes credentials and bound settings for the affected entitlements when the change takes effect. They are not retained as disabled slots. Credentials for still-valid grants remain even if their displayed order moves.
+When a slot loses access, Cobell deletes its credentials and bound settings. Paid slots count toward the 5-slot limit first. If a purchase displaces a granted slot, Cobell also deletes that slot’s credential and settings. Granted slots within the limit keep their credentials when their displayed numbers change.
 
 New payment or capacity does not restore deleted credentials and settings. Explain this before expiry: the user must register the API key or desktop Codex credential and configure the slot again. Deleting a stored key from Cobell does not revoke the original key at its provider. The credential's own expiry and auto-extension settings do not extend a subscription or slot entitlement.
 
