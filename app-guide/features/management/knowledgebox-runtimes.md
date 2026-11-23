@@ -4,9 +4,9 @@ Choose which language commands and desktop container runtimes this Gear permits.
 
 ## Start here
 
-**Desktop:** Management → Gear → select the Gear → KnowledgeBox Use settings → Expert mode on → Sandboxed.
+**Desktop:** Management → Gear → select the Gear → KnowledgeBox Use settings → Advanced settings → Execution mode → Sandboxed.
 
-**Mobile:** Shortcuts → DingDong → Gear → select the Gear → Connections → KnowledgeBox Use settings → Expert mode on → Sandboxed.
+**Mobile:** Shortcuts → DingDong → Gear → select the Gear → Connection → Built-in Toolbox → KnowledgeBox Use → Advanced settings → Execution mode → Sandboxed.
 
 ## Desktop steps
 
@@ -15,11 +15,11 @@ Choose which language commands and desktop container runtimes this Gear permits.
 3. For containers, review the separate Enable container runtime switch. It defaults on with Dart/Go; host switches default off.
 4. Select container languages independently. With container permission on, at least one must remain selected. Enabling an empty selection restores Dart/Go.
 5. Enter image overrides in the six fields if needed. See the screen reference for exact defaults. Blank images normalize to defaults; an image value alone does not enable its language or verify the image can run.
-6. Save the Gear policy. To retain containers off or custom choices, keep Expert mode on: turning it off restores enabled Dart/Go and default images.
+6. Save the Gear policy to apply the selected runtime permissions and images.
 
 ## Mobile steps
 
-1. Open the policy's Expert + Sandboxed controls. Set host-language permissions only for a target that can execute them.
+1. Open Advanced settings in Sandboxed mode. Set host-language permissions only for a target that can execute them.
 2. Use Enable run_container on eligible desktops and select its languages. This edits desktop-target policy; the phone does not become a container executor.
 3. Expand Container image overrides to edit the six images. Mobile allows preparing them even while the container switch is off; the runtime switches require it on.
 4. Save, then verify the target desktop's Docker/workspace readiness. If the save is uncertain, use Check saved settings to read the saved policy while keeping edits.
@@ -28,7 +28,7 @@ Choose which language commands and desktop container runtimes this Gear permits.
 
 Turning workspace writes off clears host languages and Git writes, but does not disable containers. Container changes do not automatically replace KnowledgeBox source files; exporting changes requires workspace write permission. Dependency preparation can use internet access.
 
-Saving does not install host languages, start Docker or verify image readiness. Expert mode off restores enabled Dart/Go containers with default images and disables host-language flags. Unrestricted hides the Sandboxed controls while retaining their values.
+After saving, check that the selected target has the language executable or Docker ready. The host and container controls are shown in Sandboxed mode.
 
 Also find this under: runtime permission, Docker, container images, host Python, Dart container, Go container.
 

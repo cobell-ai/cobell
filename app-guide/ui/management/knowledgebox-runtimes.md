@@ -4,9 +4,9 @@ Keep host language commands separate from the Gear's desktop container policy.
 
 ## Open this screen
 
-**Desktop:** Management → Gear → select the Gear → KnowledgeBox Use settings → Expert mode on → Sandboxed.
+**Desktop:** Management → Gear → select the Gear → KnowledgeBox Use settings → Advanced settings → Execution mode → Sandboxed.
 
-**Mobile:** Shortcuts → DingDong → Gear → select the Gear → Connections → KnowledgeBox Use settings → Expert mode on → Sandboxed.
+**Mobile:** Shortcuts → DingDong → Gear → select the Gear → Connection → Built-in Toolbox → KnowledgeBox Use → Advanced settings → Execution mode → Sandboxed.
 
 ## Controls
 
@@ -19,7 +19,7 @@ Keep host language commands separate from the Gear's desktop container policy.
 | Desktop image fields | Six direct fields for Python, JavaScript, C#, Dart, Go and Rust; editable while container permission is on. |
 | Mobile Container image overrides | Expands the six image fields. They can be prepared while container permission is off, provided the policy form is otherwise editable. |
 | Image text | Sets each runtime's image reference. Blank references are normalized to defaults rather than disabling a runtime. To reset explicitly, enter its default image below. Saving text does not pull/build an image or verify Docker readiness. |
-| Expert mode off | Resets host flags off and container policy to defaults: enabled Dart/Go with all default images. To keep containers off or retain custom choices, leave Expert mode on. |
+| Advanced settings | Expands or collapses the runtime controls in Sandboxed mode. |
 | Save / Cancel or Back | Uses the containing Gear policy's save/discard flow. Mobile save uncertainty offers Check saved settings without discarding edits. |
 
 ## Default container images

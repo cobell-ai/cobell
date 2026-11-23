@@ -26,7 +26,7 @@ Let a DingDong retrieve permitted public web or REST resources from selected dev
 
 An empty allow list does not block all URLs. To restrict access, add at least one pattern and save, then reopen the settings to check the applied access mode.
 
-System Gear's required Internet Use card has no configuration action. The desktop Toolbox catalog demo also does not save real Gear. Current requests require public HTTPS URLs; All allowed does not override those restrictions. Device selection, Gear assignment and successful request execution remain separate.
+System Gear's required Internet Use card has no configuration action. Requests require public HTTPS URLs in all three access modes. Device selection, Gear assignment and successful request execution remain separate.
 
 ## Related guides
 

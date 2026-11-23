@@ -19,25 +19,25 @@ These file tools extract text. Page layout, images, embedded files and OCR are o
 1. Open the Gear's KnowledgeBox Use settings and review its selected devices. Use the device-priority guide for selection/order; this does not move files between devices.
 2. Set Continue after approval timeout and a valid 1–86,400-second value. Default is enabled at 60 seconds. Expiry skips the unanswered command; it does not approve it. Off keeps waiting.
 3. In Sandboxed mode, set Allow writes. Turning writes off also clears Git writes and host-language flags, while container permission remains separate.
-4. Turn Expert mode on to change execution mode, Git writes, host runtimes or containers. Unrestricted allows direct execution outside the sandbox policy and hides the other advanced sections.
-5. Review the runtime guide before enabling host languages or changing container settings. Containers default to enabled Dart/Go even when Expert controls are closed.
+4. Expand Advanced settings to change the execution mode or Git permissions. In Sandboxed mode, this section also shows host-runtime and container settings.
+5. Review the runtime guide before enabling host languages or changing container settings. Containers default to enabled with Dart and Go selected.
 6. Press Save. It submits the update and closes this desktop dialog; reopen and check saved values if the request failed or its result is uncertain. Cancel/close before Save discard the dialog's draft.
 
 ## Mobile steps
 
 1. Set targets separately in Connections → Priority devices → reorder icon. Save that selection in the device-priority screen.
-2. Open KnowledgeBox Use settings for the Gear's file/shell policy. Set approval timeout and Allow workspace writes; turn Expert mode on for advanced controls.
+2. Open KnowledgeBox Use settings for the Gear's file/shell policy. Set approval timeout and Allow workspace writes. Expand Advanced settings for execution mode, Git and runtime controls.
 3. While Sandboxed, adjust Git writes, host languages and container policy as needed. Mobile does not execute containers; those settings apply to eligible desktop targets.
 4. Save the changed policy. Success leaves the screen. Back with a dirty draft offers keep editing/discard; sending blocks conflicting actions.
 5. If saving is uncertain, use Check saved settings to reload the saved policy while keeping edits, then compare before saving again. Retry handles a failed initial read.
 
 ## Completion, limits and recovery
 
-Defaults are Sandboxed, writes on, Git/host-language flags off, approval timeout on at 60 seconds, and container permission on for Dart/Go. Turning Expert mode off restores the advanced defaults, including container permission on. It does not change the current write/timeout choices. To retain containers off, keep Expert mode on and save that explicit choice.
+New Gear defaults to Sandboxed, workspace writes on, approval timeout on at 60 seconds, and containers enabled for Dart and Go. Git local changes and fetch default on. Git push, discard, and host-language flags default off.
 
-Switching to Unrestricted hides advanced Sandboxed controls without erasing their values. Invalid timeout text does not replace the last valid draft value; review the field before saving. An empty target selection can be saved for later configuration, but execution still requires an available permitted target and the DingDong's workspace.
+For read-only file access, keep Sandboxed and turn writes off. Review separate shell approval requests before granting them, since an approved command can change files. Check the timeout field before saving. Execution requires an available permitted target and the DingDong's workspace.
 
-Android supports file tools and available shell commands; iOS supports file tools only. Policy saving does not install runtimes, grant device access, create a knowledge folder or prove execution readiness. Host language code can access files beyond the workspace. Catalog configuration demos do not change actual Gear.
+Android supports file tools and available shell commands; iOS supports file tools only. Policy saving does not install runtimes, grant device access, create a knowledge folder or prove execution readiness. Host language code can access files beyond the workspace.
 
 Also find this under: file writes, shell sandbox, Git permission, containers, run_shell.
 

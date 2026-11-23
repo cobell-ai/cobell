@@ -1,6 +1,6 @@
 # Let a DingDong read your mobile screen
 
-1. On Android or iOS, open More → Screen sharing. The Screen sharing card in Screen Use's built-in catalog detail or Gear configuration also opens this page.
+1. On Android or iOS, open More → Screen sharing. The Screen sharing card in the Gear's Screen Use configuration also opens this page.
 2. Choose Start sharing and complete system approval. On iOS, tap the broadcast button shown while waiting, then Start Broadcast in the system dialog.
 3. Confirm that the status says Your screen is being shared. A waiting or denied status does not mean capture is active.
 4. Ask the DingDong to inspect the shared screen. You perform any taps and typing yourself.

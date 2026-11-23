@@ -1,6 +1,6 @@
 # Mobile screen sharing: screen reference
 
-**Mobile:** More → Screen sharing, or tap the Screen sharing card in Screen Use's built-in catalog detail or Gear configuration. Agent sign-in also has a screen-sharing entry. **Desktop:** Configure Screen Use in Gear; this mobile sharing page is not a desktop control.
+**Mobile:** More → Screen sharing, or use the Screen sharing card in the Gear's Screen Use configuration. Agent sign-in also has a screen-sharing entry. **Desktop:** Configure Screen Use in Gear.
 
 | Control or area | Behavior |
 |---|---|
