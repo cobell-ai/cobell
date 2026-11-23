@@ -12,36 +12,31 @@ View a supplied mission and its supported DingDong type. This screen does not ed
 
 The built-in catalog provides System DingDong mission. It is included automatically in System-type Gear.
 
-| Mission | Supported type and usage display |
+| Mission | Supported type and inclusion |
 |---|---|
-| System DingDong mission | System only. Its Usage explanation states that System-type Gear includes it automatically. |
+| System DingDong mission | System. System-type Gear includes it automatically. |
 
 ## Desktop controls and readouts
 
 | Control or area | Behavior |
 |---|---|
 | Header Back | Returns to Management. The pinned header remains available while scrolling. |
-| Mission name / built-in badge / Description | Read-only identity and explanation. The badge is not a menu. |
-| Supported types | Displays the compatible type. These badges do not change compatibility or filter Gear. |
-| Content / size readout | Read-only content; the displayed name is resolved from the current profile name. App-language changes do not translate the supplied mission text here. This detail has no prompt editor, dedicated Copy button, image editor, Rename, Duplicate, Save or Delete action. |
-| Template variable list | Not shown for the current built-in missions because they define no argument fields. The displayed profile name does not require a Gear variable entry. |
-| System Usage | Fixed explanatory text, not a current list of Gear references. It has no usage-row navigation or refresh action. |
+| Mission icon and name | Identify the selected built-in Memory. |
+| Guide | Explains the role, an example request, and automatic inclusion in System Gear. Open Gear to check saved connections. |
 
 ## Mobile controls and readouts
 
 | Control or area | Behavior |
 |---|---|
 | Back | Uses normal Back navigation, falling back to Management. |
-| Mission card / Built-in badge | Read-only name and description. |
-| Supported DingDong types | Shows System as information; there is no type selector. |
-| Memory prompt | Selectable read-only text. It uses the current account's loaded profile name, with a placeholder if that profile is not available. There is no dedicated Copy button or edit/save action. |
-| Gear in use | Fixed automatic-inclusion explanation, not a list of current Gear links. |
+| Mission icon and name | Identify System DingDong mission. |
+| Guide | Explains the mission and how to use it. To try a request, open Cobelly from Home. |
 
 ## Attachment and editing limits
 
 System mission stays first and cannot be removed from System-type Gear through the attachment editor. Opening its detail does not equip a Gear or change a DingDong. Use Gear's own controls for other compatible attachments and values.
 
-To add your own instructions, create a private Memory with compatible supported types and attach it separately. It does not replace the required System mission. If the displayed profile name is unexpected, check the account profile; the mission screen has no name-edit action.
+To add your own instructions, create a compatible private Memory and attach it alongside the required System mission.
 
 ## Related guides
 
