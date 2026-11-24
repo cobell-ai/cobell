@@ -10,7 +10,7 @@
 | Room row | Expands participant and traffic details. |
 | Room sharing switch | Enables or disables this app in that chat. |
 | Block access / Unblock; mobile Allow access | Changes one participant's access through that chat's share. |
-| Usage | Shows plan, monthly traffic, active apps, this app's connected users and concurrent users across all apps. |
+| Usage | Shows plan, monthly traffic, active apps, this app’s connected users and concurrent users across all apps. Compare monthly traffic with the included allowance to see when extra traffic can use the owner’s Credits. |
 | Participant details | Shows connection state, last connection and received/sent traffic. |
 | Settings / Change host | Opens app settings or selects an existing desktop binding. Desktop also has This device's binding. |
 | Refresh | Updates operation and connection data. |
@@ -19,4 +19,4 @@ An enabled share may still be unavailable because the host/app is offline, verif
 
 [Operation steps and counting rules](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/operate.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/README.md)
 
-Reviewed: 2026-11-21. Labels use the English app language.
+Reviewed: 2026-11-25. Labels use the English app language.

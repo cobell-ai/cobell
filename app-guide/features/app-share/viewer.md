@@ -14,8 +14,12 @@ A temporary pause or hold can retain the page while access is suspended. If the 
 
 ## Open your own folder on this device
 
-Sign in normally and select your app in Apps. If its KnowledgeBox folder is linked to this device, choose **Run**. This works before enabling a chat share. **Reset app data** in the app details clears its saved data on this device and keeps the source files.
+Sign in normally and select your app in Apps. If its KnowledgeBox folder is linked to this device, choose **Run**. This works before enabling a chat share.
+
+## Clear an app’s saved data
+
+Open the app details in **Apps**, then choose **Reset app data** from the menu and confirm. This works for owned and shared apps. The reset closes this app’s connections on this device and clears its local site data. On desktop, it clears both built-in viewer and Chrome data for that app. Reopen the app to start with fresh data.
 
 [Screen controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/viewer.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/README.md)
 
-Reviewed: 2026-11-23.
+Reviewed: 2026-11-25.

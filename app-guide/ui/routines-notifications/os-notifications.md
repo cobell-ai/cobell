@@ -4,7 +4,7 @@ Allow a personal device to display DingDong alerts.
 
 ## Open this screen
 
-**Desktop:** Avatar/name near the upper-right → Profile → OS notifications.
+**Desktop:** Avatar/name near the upper-right → Profile → App preferences → Notifications.
 
 **Mobile:** Fifth bottom tab More → OS notifications, or Profile → OS notifications.
 
@@ -12,7 +12,9 @@ Allow a personal device to display DingDong alerts.
 
 | Control or area | Behavior |
 |---|---|
-| OS notifications switch | Saves this device's Cobell delivery preference. |
+| Receive notifications | Saves this device's Cobell delivery preference. Turn it off to stop delivery to this device. |
+| Preview → Profile and chat | Controls sender and chat details in alerts. |
+| Preview → Message content | Controls message text in alerts. |
 | Permission notice | Explains blocked, missing or unavailable operating-system notification access. |
 | Allow notifications | Mobile requests notification permission when it has not yet been decided. |
 | Open system settings | Opens the OS notification settings when permission needs to be changed there. |
@@ -44,4 +46,4 @@ The mobile card is available to normal signed-in accounts and is hidden in previ
 
 [How to complete this task](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/routines-notifications/os-notifications.md) · [Routines and notifications index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/routines-notifications/README.md)
 
-Reviewed: 2026-10-24 (mobile switch, permission and distinct recovery controls; desktop guidance retained). UI labels use the English app language.
+Reviewed: 2026-11-25. UI labels use the English app language.

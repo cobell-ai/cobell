@@ -18,7 +18,7 @@ Configure a Mobile notification hook and grant observation access on the Android
 | Response context | For AI response, room main or a new top-level thread. |
 | Target Flows | For Flow rules, selects one or more saved Flows. |
 | Notification access on this device | Mobile Flow-hook settings show Android observation permission or unsupported status. |
-| Open notification access settings | Opens Android's notification-listener access settings. |
+| Open notification access settings | Opens Android’s notification access settings when Cobell needs access. To withdraw it while granted, open Android’s notification access settings directly. |
 | Retry | Rechecks failed access or rule data. |
 | Save / Enabled / Edit / Delete | Saves and maintains the rule. |
 
@@ -32,4 +32,4 @@ iOS can manage server rules for another Android device but cannot observe its ow
 
 [How to complete this task](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/routines-notifications/android-hook.md) · [Routines and notifications index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/routines-notifications/README.md)
 
-Reviewed: 2026-10-23. UI labels use the English app language.
+Reviewed: 2026-11-25. UI labels use the English app language.

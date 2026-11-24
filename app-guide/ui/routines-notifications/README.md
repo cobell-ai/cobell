@@ -11,7 +11,7 @@ Scheduled responses, event hooks, Flow triggers, inbox and OS notifications.
 | [Use another Android app’s notifications as a trigger](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/routines-notifications/android-hook.md) | Android notification listener, app event |
 | [Automatically run Flows](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/routines-notifications/flow-triggers.md) | Flow scheduler, event orchestration |
 | [Read and manage notifications](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/routines-notifications/inbox.md) | notification inbox, unread alerts |
-| [Enable Cobell OS notifications](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/routines-notifications/os-notifications.md) | push permission, desktop alerts |
+| [Enable Cobell OS notifications](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/routines-notifications/os-notifications.md) | push permission, desktop alerts, hide previews |
 | [Inspect notification-triggered execution history](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/routines-notifications/trigger-history.md) | why automation did not run, event history |
 
 [All ui](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/README.md) · [Guide home](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/README.md)

@@ -30,6 +30,10 @@ If Browser shows only an empty Device message and no Add button, open [Managemen
 2. Use the address bar for public HTTPS sites. Use the tab menu to add, switch or close pages. The Browser's domain rules still apply.
 3. Return to Cobell to keep the session running in the foreground, or choose **Stop browser** to end it. Switching apps or locking the device ends the session and keeps the saved Browser profile.
 
+## Change the site account
+
+**Stop browser** ends the session. Sign out within the website first to end its saved sign-in. To keep two site accounts separate, create a second Browser, sign in there, and select it in the DingDong’s Gear. Follow the [Browser Gear steps](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/browser-gear.md).
+
 ## Recovery
 
 If the running-browser limit is reached, stop another local Browser or adjust the limit in the Browser list menu.
@@ -42,4 +46,4 @@ If iOS offers **Retry profile reset**, complete the reset before starting the Br
 
 [Screen controls and locations](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/devices-browsers/browser-runtime.md) · [Android Booster](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/android-booster.md) · [Browser policy](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-policy.md) · [Browser configuration](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-create.md)
 
-Reviewed: 2026-11-21. UI labels use the English app language.
+Reviewed: 2026-11-25. UI labels use the English app language.

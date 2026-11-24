@@ -7,16 +7,16 @@
 5. Expand the room to inspect participants and traffic. Use Block access or Unblock/Allow access for the participant in that share.
 6. Use Pause all sharing, Resume sharing or the mobile Paused switch to change availability across all chats for this app.
 
-The operator's plan limits monthly traffic, concurrent apps, concurrent users per app and total concurrent users across apps. App registration is unlimited. Limits do not produce overage charges.
+The operator’s plan sets the included monthly traffic and limits for concurrent apps, users per app, and users across apps. App registration is unlimited. Check **Operate → Usage** before sharing with a larger group. Traffic beyond the allowance uses the app owner’s Credits. Sharing stops when the allowance and available Credits are exhausted. Use the pause control to stop serving the app.
 
 - One account using the same app on multiple devices or through multiple chats counts once for that app.
 - The total adds each app's account count: one account using three apps counts as three.
 - The owner counts as a viewer when opening their own chat share. Hosting alone does not count as viewing.
 - Opening your own chat share on its host device uses no monthly App Share traffic. Chat access rules still apply. This covers static folder hosting and desktop HTTP(S) service hosting.
-- A user limit prevents new users from joining; the monthly traffic limit stops sharing.
+- A user limit prevents new users from joining.
 
 The operation screen is available on desktop and mobile with normal sign-in. Agent sign-in can host local apps but cannot use this monitoring/viewer interface. On the mobile agent dashboard, Hosting on this device lists apps assigned to this phone with at least one enabled chat share. Check each app’s status. Connecting, a missing start page, paused sharing or relay suspension can all prevent serving.
 
 [Screen controls](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/app-share/operate.md) · [App Share index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/app-share/README.md)
 
-Reviewed: 2026-11-23.
+Reviewed: 2026-11-25.

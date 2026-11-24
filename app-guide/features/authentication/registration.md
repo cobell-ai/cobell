@@ -22,6 +22,10 @@ Supply the additional information needed when signing in for the first time.
 3. Accept the required agreements.
 4. Submit registration.
 
+## Reopen the terms or privacy policy
+
+After sign-in, open **Profile → App info & support** on desktop or **More** on mobile. Choose **Terms of Service** or **Privacy Policy**. Use **Retry** if the in-app reader fails to load. To follow provider links in a regular browser, use the website’s [Terms of Service](https://www.cobell.ai/legal/terms/) or [Privacy Policy](https://www.cobell.ai/legal/privacy/).
+
 ## Completion, limits and recovery
 
 The name must use 1–40 supported letters, numbers or underscores and cannot be numbers only. An expired signup requires a fresh social sign-in. If the account is already registered, return to login.
@@ -32,4 +36,4 @@ Also find this under: signup, create account, first login, nickname required.
 
 [Screen controls and locations](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/authentication/registration.md) · [Feature index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/authentication/README.md)
 
-Reviewed: 2026-10-23. UI labels use the English app language.
+Reviewed: 2026-11-25. UI labels use the English app language.

@@ -17,6 +17,7 @@ Run a Browser on its owning device and distinguish saved configuration from the 
 | Running / Stopped / Stale / Error | Reports runtime state separately from saved settings. Starting, opening, stopping and printing also show progress on mobile. |
 | Desktop Start browser / Stop browser | Appears only for Browsers owned by this desktop; remote rows show reported state. |
 | Mobile Start browser / Open browser / Stop browser | Starts the local Android or iOS session, opens its running window, or stops it. |
+| Website sign-out | Use the website’s own account menu to end its saved sign-in before stopping the Browser. |
 | Android Basic / Booster capability | Indicates whether advanced controls are available. To switch from basic to advanced, connect Booster and restart the Browser. |
 | Print or save PDF | Conditional Android action: needs a running Browser, ready connection, PDF permission and confirmed settings. Opens the system print flow; preparing can be canceled. |
 | Browser window address / Go | On Android, enter an HTTP(S) address; a host without a scheme uses HTTPS. Browser policy still applies. |
@@ -39,4 +40,4 @@ Losing Wi-Fi/Booster or turning its permission off stops advanced sessions. If c
 
 [Task steps](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-runtime.md) · [Android Booster](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/android-booster.md) · [Browser policy](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-policy.md) · [Browser configuration](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/devices-browsers/browser-create.md)
 
-Reviewed: 2026-11-21. UI labels use the English app language.
+Reviewed: 2026-11-25. UI labels use the English app language.
