@@ -35,13 +35,17 @@ Let a DingDong retrieve permitted public web or REST resources from selected dev
 
 An empty allow list does not block all URLs. To restrict access, add at least one pattern and save, then reopen the settings to check the applied access mode.
 
+## Request header settings
+
+In an editable Gear, open Internet Use → **Advanced settings**. **Block Authorization**, **Block Cookie**, **Block X-Api-Key**, and **Block X-Auth-Token** are on by default. Turn off the block for the required header and save. Start a new DingDong run to use the saved settings. URL rules still apply. If a Gear setting blocks a request, DingDong can tell the user which header to allow.
+
 ## Completion, limits and recovery
 
 URL-rule controls do not verify request execution. Current request execution requires public HTTPS URLs; All allowed does not remove transport/network restrictions. Select a connected execution device and equip the Gear to the intended DingDong. A saved configuration is not a successful request.
 
 Internet Use can read public web pages and use public HTTPS APIs that permit the operation. Supported methods are `GET`, `HEAD`, `POST`, `PUT`, `PATCH`, and `DELETE`. A request without a body defaults to `GET` if the method is omitted.
 
-DingDong can set allowed headers such as `User-Agent` and `Content-Type` per request. The default User-Agent is `Cobell-Agent/1.0`. Requests that require API keys, login tokens, or cookies are unsupported.
+DingDong can set allowed headers such as `User-Agent` and `Content-Type` per request. The default User-Agent is `Cobell-Agent/1.0`.
 
 Use [Sandbox Browser Use](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/browser-gear.md) for actions on a browser page, such as clicking buttons on a signed-in site. See [System Gear limits](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/gear-attachments.md) for the required Internet Use card.
 
@@ -51,4 +55,4 @@ Also find this under: web lookup, REST, URL rules, allowed websites, Internet Us
 
 [Screen controls and locations](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/management/internet-permissions.md) · [Feature index](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/README.md)
 
-Reviewed: 2026-10-23. UI labels use the English app language.
+Reviewed: 2026-11-25. UI labels use the English app language.
