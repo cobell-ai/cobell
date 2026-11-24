@@ -39,7 +39,11 @@ An empty allow list does not block all URLs. To restrict access, add at least on
 
 URL-rule controls do not verify request execution. Current request execution requires public HTTPS URLs; All allowed does not remove transport/network restrictions. Select a connected execution device and equip the Gear to the intended DingDong. A saved configuration is not a successful request.
 
-Internet Use can read public web pages and request reads, updates, or deletions on public HTTPS APIs that permit the operation. It does not support supplying API keys, login tokens, or cookies. Use [Sandbox Browser Use](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/browser-gear.md) for actions on a browser page, such as clicking buttons on a signed-in site. See [System Gear limits](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/gear-attachments.md) for the required Internet Use card.
+Internet Use can read public web pages and use public HTTPS APIs that permit the operation. Supported methods are `GET`, `HEAD`, `POST`, `PUT`, `PATCH`, and `DELETE`. A request without a body defaults to `GET` if the method is omitted.
+
+DingDong can set allowed headers such as `User-Agent` and `Content-Type` per request. The default User-Agent is `Cobell-Agent/1.0`. Requests that require API keys, login tokens, or cookies are unsupported.
+
+Use [Sandbox Browser Use](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/browser-gear.md) for actions on a browser page, such as clicking buttons on a signed-in site. See [System Gear limits](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/gear-attachments.md) for the required Internet Use card.
 
 Also find this under: web lookup, REST, URL rules, allowed websites, Internet Use.
 
