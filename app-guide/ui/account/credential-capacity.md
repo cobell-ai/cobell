@@ -34,6 +34,8 @@ Changes to paid slot count or usage multipliers take effect at the next paid bil
 
 When a slot loses access, Cobell deletes its credentials and bound settings. Paid slots count toward the 5-slot limit first. If a purchase displaces a granted slot, Cobell also deletes that slot’s credential and settings. Granted slots within the limit keep their credentials when their displayed numbers change.
 
+The multiplier shown beside a slot includes any active allowance carried over from a displaced grant. The combined multiplier can reach X100. For example, a paid X3 slot with X0.6 carried over shows X3.6.
+
 Buying capacity again does not restore deleted credentials or settings. Register and configure the slots again. Removing a stored key from Cobell does not revoke the original key at its provider. A credential's expiry date or Auto extend setting does not preserve an ended slot entitlement.
 
 Explain this before expiry and use [subscription expiry](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/account/subscription.md) for the account and device-limit effects.
