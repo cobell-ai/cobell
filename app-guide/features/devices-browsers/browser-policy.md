@@ -23,7 +23,7 @@ Blocked rules win. A Gear override cannot widen the Browser-global policy. Enabl
 
 On a local Android Browser, options marked Requires Cobell Mobile Booster connection are disabled while advanced control is unavailable. Basic browsing, reading, clicking and typing work without pairing. A connected Booster must be available when the Browser starts; restart an existing basic session to use it.
 
-On iOS 18.4 or later, set domain rules for public HTTPS sites. File transfer and other advanced controls are unavailable.
+On iOS 18.4 or later, set domain rules for public HTTPS sites. Downloads follow the Browser and Gear permissions. To upload, keep the Browser visible and choose the files yourself when Cobell opens the picker. Advanced controls such as raw CDP remain unavailable on iOS.
 
 If a settings change is awaiting confirmation, runtime permissions can remain stricter than the saved settings. Use the offered reload/service Retry and recheck before assuming a relaxed permission is active.
 
