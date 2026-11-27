@@ -9,7 +9,7 @@ Pure and Cobelly, Gear assignment, Bell requests, questions and behavior setting
 | [Equip a DingDong with Gear](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/dingdongs/equip-gear.md) | no Gear, Gear dropdown, room assignment, setup Save |
 | [Request, interrupt, resume or stop a response](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/dingdongs/response-controls.md) | Bell button, required resume guidance, Stop, countdown, queued response |
 | [Answer questions from a DingDong](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/dingdongs/answer-questions.md) | questionnaire, waiting for answer, typed answers, image/file attachments |
-| [Change DingDong behavior in a room](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/dingdongs/behavior.md) | auto reply, message interval, delay, Bell people, intelligence |
+| [Change DingDong behavior in a room](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/dingdongs/behavior.md) | auto reply, message interval, delay, Bell people, intelligence, allow Memory self-edit |
 | [Control new shared-chat invitations](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/dingdongs/invite-policy.md) | shared invite policy, locked DingDong |
 | [Invite your DingDong into a chat](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/dingdongs/invite-to-room.md) | invite owned bots, Gear review, policy lock, uncertain invitation |
 | [Join several chats with one DingDong](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/ui/dingdongs/join-chats.md) | management Join, multi-room selection, partial batch, Gear setup |

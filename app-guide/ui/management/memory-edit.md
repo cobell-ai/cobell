@@ -16,6 +16,7 @@ Built-in missions use a separate [read-only detail screen](https://raw.githubuse
 |---|---|
 | Desktop name pencil / Save / Cancel | Edits a trimmed, required name of at most 40 characters. Save awaits the update; failure keeps editing. Cancel restores the saved name. |
 | Desktop Content → Edit / Save / Cancel | Opens the plain prompt and variable cards. Save awaits the update and leaves edit mode after success; failure keeps it. Cancel discards this draft. |
+| Desktop detail menu / mobile Overview → Lock DingDong editing | Blocks self-edits to this Private Memory across all Gears. Use the desktop Unlock DingDong editing action or turn the mobile switch off to unlock. [Memory self-editing and locks](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/memory-self-edit.md) |
 | Desktop detail-header Back | With changed name/prompt, offers Keep editing, Leave without saving or Save and leave before returning to Management. Save failure keeps the editor. This describes the header action, not every possible navigation route. |
 | Mobile Overview → Rename | Opens a name dialog with the same 40-character display-label limit. Save or keyboard Done submits; success closes it. Cancel leaves the saved name. Buttons/field are blocked while sending; failure remains in the dialog. |
 | Mobile Edit prompt / Template variables | Edits prompt and variable definitions together. Template variables directly on detail is the saved read-only list; inside Edit prompt it opens draft fields. |

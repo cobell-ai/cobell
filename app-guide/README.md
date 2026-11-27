@@ -30,6 +30,7 @@ Both indexes cover the following areas. Each topic contains desktop and mobile p
 - [Change my nickname](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/account/nickname.md)
 - [Create a DingDong](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/create-pure.md)
 - [Make my DingDong ready to respond](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/equip-gear.md)
+- [Ask my DingDong to update its Memory or limit what it can edit](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/memory-self-edit.md)
 - [Connect files to a DingDong](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/knowledgebox/workspace.md)
 - [Run a Flow](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/flows/run.md)
 - [Schedule an automatic response](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/routines-notifications/scheduler.md)

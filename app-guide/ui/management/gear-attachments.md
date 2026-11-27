@@ -16,6 +16,7 @@ Select attachments, set this Gear's Memory values and open its Toolbox configura
 | Template Variable Settings | Adds a step for each selected Memory that has variables. Defaults are filled where available; every variable needs a nonblank value before Next. Previous retains the open wizard's selection and values. |
 | Final Confirmation → Add | Reviews the selected Memories, then submits their attachment/configuration together. Success closes; failure shows an error and keeps the dialog. |
 | Attached Memory settings icon | Offered when variables exist. Memory config edits this Gear's values, not the Memory definition. Save requires nonblank values, trims them and closes after success. Cancel/close dismisses the open draft. |
+| Attached Private Memory card → Lock DingDong editing / Unlock DingDong editing | Controls self-edits to the Memory through this Gear. [Memory self-editing and locks](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/memory-self-edit.md) |
 | Memory drag handle | Reorders attached Memories and sends the update immediately. There is no separate attachment Save button afterward. |
 | Add Toolbox | Same selection/configuration/Final Confirmation wizard. Lists compatible items not already attached/enabled. Built-in configuration, options and headers add steps where applicable. Complete the requested settings before Next/Add. |
 | Attached Toolbox settings | Built-in items open their permission/configuration dialog; private MCP items open their Gear connection editor. Other configured Toolboxes use their values editor. |
@@ -31,6 +32,7 @@ Private attachments have no version selector here. Use the existing Memory confi
 | Control or area | Location and behavior |
 |---|---|
 | Linked memories pencil / linked Memory | Opens Attached memories. Selected rows are numbered; Available to attach contains remaining definitions with their availability. Choosing an available item adds it to the draft and fills its variable defaults. |
+| Lock DingDong editing | Switch in an expanded, saved Private Memory connection. It saves independently of template value edits. |
 | Template values / Reset to default | Edits per-Gear strings. The restore icon copies the definition's default into that field, including an empty default. All defined variables must still have nonblank values to Save. |
 | Selected Memory drag handle | Reorders the draft's priority. Required System mission Memory stays first and has no remove/drag control. |
 | Selected Memory Remove | Cancel/Remove confirmation removes the attachment only from the draft. Save is still required. |

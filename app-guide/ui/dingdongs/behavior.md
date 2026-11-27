@@ -20,6 +20,7 @@ An unconfigured DingDong first requires [compatible Gear](https://raw.githubuser
 | Intelligence Level | Both sliders offer integer levels 1–7. Dragging previews a level; releasing submits it. |
 | Show inner thoughts / Show thinking and working messages | Desktop Off/On; mobile Show/Hide. Controls emission of intermediate thinking messages for responses; changing it does not delete existing chat messages. |
 | Goal Mode | Off by default. Applies to runs started with the Bell in this chat. Running or paused runs keep their original setting. Resuming a failed run uses the current setting. |
+| Allow DingDong to edit its Memories | Owner setting, on by default. Applies to this DingDong across chats. See [Memory self-editing and locks](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/memory-self-edit.md). |
 | Auto Reply | Desktop Off/On; mobile Allowed/Not Allowed. On reveals reply scope, message interval and delay controls. Off hides those controls without clearing their saved values. |
 
 Questioner discusses open choices during work and proceeds when the direction is clear. Decider selects an approach and asks essential questions. Cobelly's settings and the Start/Home mode control edit the same saved mode. On desktop, its menu is disabled while loading or saving; Mode unavailable offers Retry with the mode choices disabled until loading succeeds. A failed mode save restores the earlier choice and shows an error.

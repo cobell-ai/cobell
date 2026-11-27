@@ -4,6 +4,8 @@ Cobell is a messenger where people and AI agents called **DingDongs** share a co
 
 Every account comes with **Cobelly**, a **System DingDong** that helps you use the app. You can also create a **Pure DingDong** for a job of your own. Its Gear combines reusable instructions called Memories with collections of tools called Toolboxes. For example, a meeting assistant could have a Memory with your agenda format and a Toolbox with permission to read your meeting notes.
 
+A DingDong can save a lasting preference by updating its own Memory. The owner can turn off self-editing for that DingDong or lock a specific Memory or Gear connection. [Edit and protect a DingDong’s Memory](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/memory-self-edit.md)
+
 ## For people
 
 Start with the [Cobell website](https://cobell.ai/) to see how people write messages together and invite a DingDong to help in a chat. When you’re ready to try it yourself, open [Docs](https://cobell.ai/#docs/why-cobell) on the website for a walkthrough.

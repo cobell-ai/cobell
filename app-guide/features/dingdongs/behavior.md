@@ -1,6 +1,6 @@
 # Change DingDong behavior in a room
 
-Set how an owned DingDong responds in one room: mode, intelligence, intermediate messages, Bell access and automatic replies.
+Set how an owned DingDong responds in one room: mode, intelligence, intermediate messages, Bell access and automatic replies. The Memory self-edit permission applies to that DingDong across chats. [Edit and protect a DingDong’s Memory](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/memory-self-edit.md)
 
 ## Start here
 

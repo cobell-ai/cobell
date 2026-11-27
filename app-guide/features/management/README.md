@@ -8,6 +8,7 @@ Reusable instructions, variables, MCP connections, configuration and built-in To
 | [Inspect built-in Memory missions](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/builtin-memory.md) | System mission, readonly Memory, automatic inclusion |
 | [Create a reusable Memory](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/memory-create.md) | system instructions, prompt template |
 | [Edit, duplicate or delete a Memory](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/memory-edit.md) | edit prompt, copy Memory |
+| [Edit and protect a DingDong’s Memory](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/dingdongs/memory-self-edit.md) | Memory self-edit, save a preference, lock Memory, lock Gear connection |
 | [Define Memory template variables](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/memory-variables.md) | triple braces, variable defaults |
 | [Create Gear from Memories and Toolboxes](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/gear-create.md) | new Gear, creation wizard, MCP setup Retry, Open created Gear |
 | [Edit Gear attachments and values](https://raw.githubusercontent.com/cobell-ai/cobell/main/app-guide/features/management/gear-attachments.md) | attach Memory, remove Toolbox |
